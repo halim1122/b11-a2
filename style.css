@@ -239,7 +239,175 @@ main {
 }
 
 /* end of kid food part  */
+/* storie part  */
 
+.stories-head{
+    font-size:3rem;
+    font-weight: bold;
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+.storie-1,
+.storie-2,
+.storie-3,
+.storie-4,
+.storie-5 {
+    border-radius: 16px;
+}
+
+.storie-1 {
+    grid-area: storie-1;
+}
+
+.storie-2 {
+    grid-area: storie-2;
+}
+
+.storie-3 {
+    grid-area: storie-3;
+}
+
+.storie-4 {
+    grid-area: storie-4;
+}
+
+.storie-5 {
+    grid-area: storie-5;
+}
+
+.stories {
+    margin: 80px 0;
+    display: grid;
+    grid-template-areas:
+        "storie-1 storie-1 storie-2 storie-3"
+        "storie-1 storie-1 storie-4 storie-5";
+    gap: 19px;
+}
+/* img edit part  */
+.storie-1>img{
+    border-radius: 16px 16px 0 0;
+}.storie-2>img{
+    border-radius: 16px 16px 0 0;
+}.storie-3>img{
+    border-radius: 16px 16px 0 0;
+}.storie-4>img{
+    border-radius: 16px 16px 0 0;
+}.storie-5>img{
+    border-radius: 16px 16px 0 0;
+}
+/* btn edit part */
+.storie-1>button{
+    color: white;
+    background-color: rgba(60, 216, 232, 1);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 47.93px;
+    padding: 15px 19px;
+    border: none;
+    position:relative;
+    left: 36px;
+    bottom: 30px;
+}
+.storie-2>button{
+    color: white;
+    background-color: rgba(149, 178, 38, 1);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 47.93px;
+    padding: 10px 19px;
+    border: none;
+    position:relative;
+    left: 36px;
+    bottom: 25px;
+}
+.storie-3>button{
+    color: white;
+    background-color: rgba(93, 88, 240, 1);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 47.93px;
+    padding: 10px 19px;
+    border: none;
+    position:relative;
+    left: 36px;
+    bottom: 25px;
+}
+.storie-4>button{
+    color: white;
+    background-color: rgba(149, 178, 38, 1);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 47.93px;
+    padding: 10px 19px;
+    border: none;
+    position:relative;
+    left: 36px;
+    bottom: 25px;
+}
+.storie-5>button{
+    color: white;
+    background-color: rgba(149, 178, 38, 1);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 47.93px;
+    padding: 10px 19px;
+    border: none;
+    position:relative;
+    left: 36px;
+    bottom: 25px;
+}
+/* end of storie button part  */
+
+/* storie text part  */
+.storie-1>h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0px 49px;
+}
+.storie-1>h6{
+    font-size: 1rem;
+    font-weight:500;
+    color: #666666;
+    padding: 48px 49px 34px;
+}
+.storie-2>h5{
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 39px 28px;
+}.storie-3>h5{
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 39px 28px;
+}.storie-4>h5{
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 39px 28px;
+}.storie-5>h5{
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 39px 28px;
+}
+.view-head{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.view-btn{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+}
+/* end of storie text part  */
+
+/* end storie part  */
+
+/* footer part  */
 footer {
     background-color: rgba(1, 172, 253, 1);
     max-height: 520px;
@@ -295,6 +463,8 @@ footer {
     gap: 10px;
     margin-top: 32px;
 }
+
+/* end of footer part  */
 
 /* media qury  */
 

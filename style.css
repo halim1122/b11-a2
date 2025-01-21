@@ -3,6 +3,45 @@
     padding: 0;
 }
 
+.nav-hover:hover {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.food-hover:hover {
+    background-color: rgba(100, 200, 255, 1);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.food-hover-1:hover {
+    background-color: orange;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.food-hover-2:hover {
+    background-color: rgba(135, 0, 255, 1);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.hover-1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.hover-2:hover {
+    background-color: black;
+    color: white;
+    border: 1.5px solid black;
+}
+
 /* font-family */
 
 .quicksand {
@@ -87,7 +126,9 @@ body {
 /* banner part */
 
 main {
-    margin: 0 140px;
+    padding: 0 140px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.043) 50%, rgba(255, 162, 0, 0.250) 90%), url("assets/bg.png");
+
 }
 
 .banner {
@@ -95,7 +136,7 @@ main {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 60px;
+    margin: 0 140px;
 }
 
 .banner-text-1 {
@@ -129,12 +170,11 @@ main {
 /* end of banner part  */
 
 /* kids food part  */
-
 .curriculum {
     font-size: 2.875rem;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 80px;
+    padding-top: 60px;
 }
 
 .kids-foods {
@@ -241,8 +281,8 @@ main {
 /* end of kid food part  */
 /* storie part  */
 
-.stories-head{
-    font-size:3rem;
+.stories-head {
+    font-size: 3rem;
     font-weight: bold;
     padding-top: 60px;
     text-align: center;
@@ -254,6 +294,7 @@ main {
 .storie-3,
 .storie-4,
 .storie-5 {
+    background-color: white;
     border-radius: 16px;
 }
 
@@ -285,20 +326,30 @@ main {
         "storie-1 storie-1 storie-4 storie-5";
     gap: 19px;
 }
+
 /* img edit part  */
-.storie-1>img{
-    border-radius: 16px 16px 0 0;
-}.storie-2>img{
-    border-radius: 16px 16px 0 0;
-}.storie-3>img{
-    border-radius: 16px 16px 0 0;
-}.storie-4>img{
-    border-radius: 16px 16px 0 0;
-}.storie-5>img{
+.storie-1>img {
     border-radius: 16px 16px 0 0;
 }
+
+.storie-2>img {
+    border-radius: 16px 16px 0 0;
+}
+
+.storie-3>img {
+    border-radius: 16px 16px 0 0;
+}
+
+.storie-4>img {
+    border-radius: 16px 16px 0 0;
+}
+
+.storie-5>img {
+    border-radius: 16px 16px 0 0;
+}
+
 /* btn edit part */
-.storie-1>button{
+.storie-1>button {
     color: white;
     background-color: rgba(60, 216, 232, 1);
     font-size: 1rem;
@@ -306,11 +357,12 @@ main {
     border-radius: 47.93px;
     padding: 15px 19px;
     border: none;
-    position:relative;
+    position: relative;
     left: 36px;
     bottom: 30px;
 }
-.storie-2>button{
+
+.storie-2>button {
     color: white;
     background-color: rgba(149, 178, 38, 1);
     font-size: 1rem;
@@ -318,11 +370,12 @@ main {
     border-radius: 47.93px;
     padding: 10px 19px;
     border: none;
-    position:relative;
+    position: relative;
     left: 36px;
     bottom: 25px;
 }
-.storie-3>button{
+
+.storie-3>button {
     color: white;
     background-color: rgba(93, 88, 240, 1);
     font-size: 1rem;
@@ -330,11 +383,12 @@ main {
     border-radius: 47.93px;
     padding: 10px 19px;
     border: none;
-    position:relative;
+    position: relative;
     left: 36px;
     bottom: 25px;
 }
-.storie-4>button{
+
+.storie-4>button {
     color: white;
     background-color: rgba(149, 178, 38, 1);
     font-size: 1rem;
@@ -342,11 +396,12 @@ main {
     border-radius: 47.93px;
     padding: 10px 19px;
     border: none;
-    position:relative;
+    position: relative;
     left: 36px;
     bottom: 25px;
 }
-.storie-5>button{
+
+.storie-5>button {
     color: white;
     background-color: rgba(149, 178, 38, 1);
     font-size: 1rem;
@@ -354,46 +409,57 @@ main {
     border-radius: 47.93px;
     padding: 10px 19px;
     border: none;
-    position:relative;
+    position: relative;
     left: 36px;
     bottom: 25px;
 }
+
 /* end of storie button part  */
 
 /* storie text part  */
-.storie-1>h4{
+.storie-1>h4 {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 0px 49px;
 }
-.storie-1>h6{
+
+.storie-1>h6 {
     font-size: 1rem;
-    font-weight:500;
+    font-weight: 500;
     color: #666666;
     padding: 48px 49px 34px;
 }
-.storie-2>h5{
-    font-weight: 500;
-    font-size: 1rem;
-    padding: 0 39px 28px;
-}.storie-3>h5{
-    font-weight: 500;
-    font-size: 1rem;
-    padding: 0 39px 28px;
-}.storie-4>h5{
-    font-weight: 500;
-    font-size: 1rem;
-    padding: 0 39px 28px;
-}.storie-5>h5{
+
+.storie-2>h5 {
     font-weight: 500;
     font-size: 1rem;
     padding: 0 39px 28px;
 }
-.view-head{
+
+.storie-3>h5 {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 39px 28px;
+}
+
+.storie-4>h5 {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 39px 28px;
+}
+
+.storie-5>h5 {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 39px 28px;
+}
+
+.view-head {
     text-align: center;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
-.view-btn{
+
+.view-btn {
     text-align: center;
     font-size: 1.25rem;
     font-weight: bold;
@@ -403,6 +469,7 @@ main {
     color: white;
     background-color: black;
 }
+
 /* end of storie text part  */
 
 /* end storie part  */
@@ -470,6 +537,10 @@ footer {
 
 @media screen and (max-width:395px) {
 
+    body {
+        max-width: 395px;
+    }
+
     /* nav-part */
     .head {
         margin: 0px;
@@ -504,11 +575,13 @@ footer {
 
 
     main {
-        margin: 0 13.5px;
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(255, 162, 0, 0.258) 90%), url("assets/bg.png");
+        padding: 0 13.5px;
     }
 
     .banner {
         flex-direction: column-reverse;
+        margin: 0;
         padding: 20px 0;
         gap: 20px;
     }
@@ -595,6 +668,141 @@ footer {
         display: none;
     }
 
+
+    /* storie part  */
+
+    .stories-head {
+        font-size: 1.6rem;
+        font-weight: bold;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .storie-1 {
+        display: none;
+    }
+
+    .stories {
+        margin: 20px 0;
+        grid-template-areas:
+            "storie-2 storie-3"
+            "storie-4 storie-5";
+        gap: 11px;
+
+    }
+
+    .storie-2>img {
+        max-width: 177.67px;
+    }
+
+    .storie-3>img {
+        max-width: 177.67px;
+    }
+
+    .storie-4>img {
+        max-width: 177.67px;
+    }
+
+    .storie-5>img {
+        max-width: 177.67px;
+    }
+
+    .storie-2>button {
+        color: white;
+        background-color: rgba(149, 178, 38, 1);
+        font-size: .55rem;
+        font-weight: 500;
+        border-radius: 28.54px;
+        padding: 6px 11px;
+        border: none;
+        position: relative;
+        left: 36px;
+        bottom: 18px;
+    }
+
+    .storie-3>button {
+        color: white;
+        background-color: rgba(93, 88, 240, 1);
+        font-size: .55rem;
+        font-weight: 500;
+        border-radius: 28.54px;
+        padding: 6px 11px;
+        border: none;
+        position: relative;
+        left: 36px;
+        bottom: 18px;
+    }
+
+    .storie-4>button {
+        color: white;
+        background-color: rgba(149, 178, 38, 1);
+        font-size: .55rem;
+        font-weight: 500;
+        border-radius: 28.54px;
+        padding: 6px 11px;
+        border: none;
+        position: relative;
+        left: 36px;
+        bottom: 18px;
+    }
+
+    .storie-5>button {
+        color: white;
+        background-color: rgba(149, 178, 38, 1);
+        font-size: .55rem;
+        font-weight: 500;
+        border-radius: 28.54px;
+        padding: 6px 11px;
+        border: none;
+        position: relative;
+        left: 36px;
+        bottom: 18px;
+    }
+
+    /* end of storie button part  */
+
+    /* storie text part  */
+    .storie-2>h5 {
+        font-weight: 500;
+        font-size: .56rem;
+        padding: 0 32px 19px 22px;
+    }
+
+    .storie-3>h5 {
+        font-weight: 500;
+        font-size: .56rem;
+        padding: 0 32px 19px 22px;
+    }
+
+    .storie-4>h5 {
+        font-weight: 500;
+        font-size: .56rem;
+        padding: 0 32px 19px 22px;
+    }
+
+    .storie-5>h5 {
+        font-weight: 500;
+        font-size: .56rem;
+        padding: 0 32px 19px 22px;
+    }
+
+    .view-head {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .view-btn {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 10px 37px;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        background-color: black;
+    }
+
+    /* end of storie text part  */
     /* footer part  */
 
     footer {
@@ -635,4 +843,5 @@ footer {
         gap: 8px;
         margin-top: 35px;
     }
+
 }

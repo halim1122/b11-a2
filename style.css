@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family */
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-style: normal;
+}
+
+.raleway {
+    font-family: "Raleway", serif;
+    font-style: normal;
+}
+
+/* body-part */
+
+body {
+    max-width: 1440px;
+}
+
+/* header-part */
+
+
+.head {
+    margin: 20px 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-bar>nav>ul {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-bar>nav>ul>li {
+    display: inline;
+}
+
+.nav-bar>nav>ul>li>a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#home {
+    color: orange;
+}
+
+#about {
+    color: skyblue;
+}
+
+#facilities {
+    color: rgba(5, 212, 223, 1);
+}
+
+#admission {
+    color: rgba(93, 88, 239, 1);
+}
+
+.nav-button>button {
+    background-color: orange;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 60.5px;
+}
+
+/* end of nav bar  */
+
+/* banner part */
+
+main {
+    margin: 0 140px;
+}
+
+.banner {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.banner-text-1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.banner-text-1-1 {
+    color: orange;
+}
+
+.banner-text-1-2 {
+    color: skyblue;
+}
+
+.banner-text-2 {
+    font-size: 1.25rem;
+    padding: 24px 0;
+}
+
+.banner-btn {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px 47px;
+}
+
+/* end of banner part  */
+
+/* kids food part  */
+
+.curriculum {
+    font-size: 2.875rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.kids-foods {
+    display: flex;
+    gap: 28px;
+    margin: 80px 0;
+}
+
+.food-1 {
+    background-image: linear-gradient(360deg, white 40%, #DEF5FF 90%);
+    border-radius: 12px;
+    border: .1px solid rgb(187, 185, 185);
+    box-shadow: 0 .1px 80px 1px rgb(223, 222, 222);
+    width: 367.8px;
+    text-align: center;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+
+.food-2 {
+    background-image: linear-gradient(360deg, white 40%, rgba(255, 244, 220, 1) 90%);
+    border-radius: 12px;
+    border: .1px solid rgb(187, 185, 185);
+    box-shadow: 0 .1px 80px 1px rgb(223, 222, 222);
+    width: 367.8px;
+    text-align: center;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+
+.food-3 {
+    background-image: linear-gradient(360deg, white 40%, #EEE1FF 90%);
+    border-radius: 12px;
+    border: .1px solid rgb(187, 185, 185);
+    box-shadow: 0 .1px 80px 1px rgb(223, 222, 222);
+    width: 367.8px;
+    text-align: center;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+
+.food>img {
+    padding-top: 52px;
+}
+
+.food>h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.food>p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(134, 131, 131);
+    padding: 34px 40px;
+}
+
+.food-btn-1 {
+    color: rgba(100, 200, 255, 1);
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 23px;
+}
+
+.food-btn-2 {
+    color: rgba(240, 170, 0, 1);
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 23px;
+}
+
+.food-btn-3 {
+    color: rgba(135, 0, 255, 1);
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 23px;
+}
+
+.next-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.next {
+    height: 60px;
+    width: 60px;
+    background-color: orange;
+    color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+/* end of kid food part  */
+
+footer {
+    background-color: rgba(1, 172, 253, 1);
+    max-height: 520px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 160px;
+    padding: 122px 227px 174px 148px;
+}
+
+.footer-text {
+    width: 350px;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.footer-logo>h2 {
+    font-size: 2.75rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+}
+
+.footer-img {
+    width: 83px;
+}
+
+.footer-logo>p {
+    font-size: 1.25rem;
+}
+
+.about-school>h2 {
+    font-style: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+.about-school>ul {
+    list-style: none;
+}
+
+.about-school>ul>li {
+    margin-bottom: 20px;
+}
+
+.kip-in-touch {
+    display: flex;
+    gap: 10px;
+    margin-top: 32px;
+}
+
+/* media qury  */
+
+@media screen and (max-width:395px) {
+
+    /* nav-part */
+    .head {
+        margin: 0px;
+        display: inline;
+    }
+
+    .nav-bar,
+    .nav-button,
+    .logo-text {
+        display: none;
+    }
+
+    #bars {
+        height: 30px;
+        width: 30px;
+    }
+
+    .logo>img {
+        height: 46px;
+        width: 46px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 16px;
+        box-shadow: 0 .1px 1px orange;
+    }
+
+    /* banner-part */
+
+
+    main {
+        margin: 0 13.5px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .banner-img>img {
+        width: 336.58px;
+    }
+
+    .banner-text-1 {
+        font-size: 2rem;
+    }
+
+    .banner-text-2 {
+        font-size: .875rem;
+        padding: 18px 0;
+    }
+
+    .banner-btn {
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 8px 24px;
+    }
+
+    .banner-text {
+        text-align: center;
+
+    }
+
+    /* end of banner part  */
+
+    /* kid food part  */
+    .curriculum {
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .kids-foods {
+        flex-direction: column;
+        gap: auto;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .food>img {
+        padding-top: 35px;
+    }
+
+    .food>h4 {
+        font-size: 1rem;
+        font-weight: bold;
+        padding-top: 22px;
+    }
+
+    .food>p {
+        font-size: .700rem;
+        font-weight: 400;
+        color: rgb(134, 131, 131);
+        padding: 22px 80px;
+    }
+
+    .food-btn-1 {
+        font-weight: bold;
+        font-size: .700rem;
+        padding: 3px 25px;
+    }
+
+    .food-btn-2 {
+        font-weight: bold;
+        font-size: .700rem;
+        padding: 3px 25px;
+    }
+
+    .food-btn-3 {
+        font-weight: bold;
+        font-size: .700rem;
+        padding: 3px 25px;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    /* footer part  */
+
+    footer {
+        flex-direction: column;
+        gap: 32px;
+        padding: 65px 14px 60px 14px;
+    }
+
+    .footer-logo {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .footer-logo>h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+
+    .footer-img {
+        width: 70px;
+    }
+
+    .footer-logo>p {
+        font-size: 1rem;
+    }
+
+    .about-school>h2 {
+        font-style: 1.25rem;
+        font-weight: bold;
+        padding-bottom: 25px;
+    }
+
+    .kip-in-touch {
+        display: flex;
+        gap: 8px;
+        margin-top: 35px;
+    }
+}

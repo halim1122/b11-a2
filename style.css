@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+
+.marquee {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-image: linear-gradient(90deg,rgb(51, 51, 223) 15%, orange 50%, rgb(51, 51, 236) 80%);
+    color: white;
+    margin: 10px 140px;
+    padding: 4px;
+}
+
 .nav-hover:hover {
     background-color: black;
     color: white;
@@ -572,7 +582,14 @@ footer {
     }
 
     /* banner-part */
-
+    .marquee {
+        font-weight: bold;
+        font-size: 1rem;
+        background-image: linear-gradient(90deg,rgb(51, 51, 223) 15%, orange 50%, rgb(51, 51, 236) 80%);
+        color: white;
+        margin: 10px 15px;
+        padding: 4px;
+    }
 
     main {
         background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(255, 162, 0, 0.258) 90%), url("assets/bg.png");

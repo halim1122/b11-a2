@@ -7,7 +7,7 @@
 .marquee {
     font-weight: bold;
     font-size: 1.5rem;
-    background-image: linear-gradient(90deg,rgb(51, 51, 223) 15%, orange 50%, rgb(51, 51, 236) 80%);
+    background-image: linear-gradient(90deg, rgb(51, 51, 223) 15%, orange 50%, rgb(51, 51, 236) 80%);
     color: white;
     margin: 10px 140px;
     padding: 4px;
@@ -585,7 +585,7 @@ footer {
     .marquee {
         font-weight: bold;
         font-size: 1rem;
-        background-image: linear-gradient(90deg,rgb(51, 51, 223) 15%, orange 50%, rgb(51, 51, 236) 80%);
+        background-image: linear-gradient(90deg, rgb(51, 51, 223) 15%, orange 50%, rgb(51, 51, 236) 80%);
         color: white;
         margin: 10px 15px;
         padding: 4px;
